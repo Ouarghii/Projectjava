@@ -10,8 +10,7 @@ Service-oriented platform focusing on establishing and maintaining
 connections between consumers and small businesses in the The Arts,
 Entertainment, and Recreation sector.
 
-Click [here](https://www.hobbie.ch) to view the application.
-This application is subject to Copyright.
+
 
 <b>Applications</b>
 <hr>
@@ -48,7 +47,7 @@ react-frontend uses Semantic UI React as CSS-styled framework.
 
 Clone the repository:
 
-<pre>git clone https://github.com/purshink/ReactJS-Spring-Boot-Full-Stack-App.git</pre>
+<pre>git clone https://github.com/Ouarghii/Projectjava.git</pre>
 
 Navigate to the newly created folder:
 
@@ -78,8 +77,6 @@ http://localhost:4200
  
 <b>Backend -</b>
 Install JDK 11.0.11
-Install docker -v 20.10.7
-Install docker-compose -v 1.8.0
 
 Navigate to spring-backend subfolder:
 
@@ -109,10 +106,5 @@ NOTE: /notification endpoint will return an internal server error if you don't s
 
 <pre>The backend will run on http://localhost:8080 </pre>
 
-<b>Spring Mail</b>
-
-Make sure to specify a valid spring.mail.username and spring.mail.password in the application.properties file in order to be able to send an Email confirmation for updating user entries.
-
-IMPORTANT: if you decide not to specify mail credentials, you will get javax.mail.AuthenticationFailedException. The rest of the application should work normally despite this exception.
 
 
